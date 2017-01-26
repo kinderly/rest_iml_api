@@ -1,0 +1,17 @@
+PATH
+  remote: .
+  specs:
+    rest_iml_api (0.2)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  rest_iml_api!
+
+BUNDLED WITH
+   1.14.3
