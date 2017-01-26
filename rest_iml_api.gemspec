@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name = 'rest_iml_api'
-  s.version = '0.1'
+  s.version = '0.2'
   s.authors = ['Kinderly LTD']
   s.email = 'pustserg@yandex.ru'
   s.homepage = 'https://github.com/kinderly/rest_iml_api'
