@@ -1,5 +1,6 @@
 module RestImlApi
   require 'rest_iml_api/request'
+  require 'rest_iml_api/create_order'
   require 'rest_iml_api/get_orders'
   require 'rest_iml_api/get_statuses'
   require 'rest_iml_api/get_pickup_points'
