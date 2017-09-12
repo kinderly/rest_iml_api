@@ -14,8 +14,8 @@ module RestImlApi
     class << self
       def request(query, action)
         uri = URI(URL + ACTIONS[action])
-        req = Net::HTTP::Post.new(uri)
-        req.set_form_data(query)
+        req = Net::HTTP::Post.new(uri, { 'Content-Type' =>'application/json' })
+        req.body = query.to_json
         req.basic_auth(ENV['IML_LOGIN'], ENV['IML_PASSWORD'])
         http = Net::HTTP.new(uri.host, uri.port)
         http.use_ssl = true
